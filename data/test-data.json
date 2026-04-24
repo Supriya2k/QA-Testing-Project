@@ -1,0 +1,20 @@
+{
+  "users": {
+    "validUser": {
+      "username": "standard_user",
+      "password": "secret_sauce"
+    },
+    "invalidUser": {
+      "username": "invalid_user",
+      "password": "wrong_password"
+    }
+  },
+  "loginMessages": {
+    "error": "Epic sadface: Username and password do not match any user in this service"
+  },
+  "api": {
+    "baseUrl": "https://jsonplaceholder.typicode.com",
+    "usersEndpoint": "/users",
+    "expectedStatus": 200
+  }
+}
